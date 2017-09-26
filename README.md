@@ -2,7 +2,7 @@
 
 This is an example of a simple React app with a traditional REST api using Node.js with express and Mongo.
 
-The React app was created by "create-react-app". See [https://facebook.github.io/react/docs/installation.html](React Create App) for reference.
+The React app was created by "create-react-app". See [Create React App](https://facebook.github.io/react/docs/installation.html) for reference.
 
 ## API Setup
 After cloning into desired directory...
