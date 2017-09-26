@@ -1,5 +1,7 @@
 # Coding Exercise
 
+**This code is not completed but has a partial implementation of React Redux (in flux ha ha ha, not really funny)**
+
 This is an example of a simple React app with a traditional REST api using Node.js with express and Mongo.
 
 The React app was created by "create-react-app". See [Create React App](https://facebook.github.io/react/docs/installation.html) for reference.
