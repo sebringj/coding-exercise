@@ -9,7 +9,7 @@ After cloning into desired directory...
 - Install latest version of Node.js (v8.+) (recommend NVM)
 - Install latest of Mongo (v3+)
 - Place .env file within root of API directory
-- Within API directory run "npm start"
+- Within API directory run "npm install && npm start"
 
 Example .env file.
 
@@ -21,8 +21,7 @@ MONGODB='mongodb://localhost/codingexercise'
 ## React Setup
 After cloning into desired directory...
 - Install latest version of Node.js (v8.+) (recommend NVM)
-- Install latest of React
-- Within API directory run "npm start"
+- Within API directory run "npm install && npm start"
 
 **Attention** assumes API is running on port 7001. Go to web-app root folder and modify /src/api/API.js and modify ```this.baseUrl``` to desired API location.
 
