@@ -5,5 +5,6 @@ router.get('/', (req, res) => {
   res.json({ msg: 'ok'})
 })
 router.use('/test', require('./test'))
+router.use('/contact', require('./contact'))
 
 module.exports = router

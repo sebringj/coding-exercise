@@ -1,3 +1,7 @@
 import Test from './Test'
+import Contact from './Contact'
 
-export { Test }
+export {
+  Test,
+  Contact
+}

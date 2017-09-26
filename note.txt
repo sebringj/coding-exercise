@@ -1,0 +1,35 @@
+This API should be able to do the following:
+--------------------------------------------
+- connect to a database of your choice (MySQL, Postgres, MongoDB, SQLite, etc.) using knex.js
+- handle CRUD actions for a Contact
+- associate contacts to users
+- filter contact collection by contact type
+- filter contact collection by name or email
+- detect duplicate contact and merge data
+
+Extra mile:
+-----------
+- build a UI to perform CRUD actions on the API endpoints
+- add a pub/sub endpoint that broadcasts the new score to all subscribers when a lead score is updated
+- create a custom middleware that detects a header field (can be anything) that when set, only allows searching a contact
+
+
+Contact Model
+=============
+- must be able to store an identifier
+- must be able to store a name
+- must be able to store an email address
+- should be able to store a contact type
+- should be able to store an address
+- should be able to store phone numbers with type
+
+User Model
+==========
+- must be able to store an identifier
+- must be able to store a name
+
+Contact Types
+=============
+- lead (a lead can also have a lead score)
+- friend (a friend can also have years known)
+- family (a family member can also have a relationship type)
